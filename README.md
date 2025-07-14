@@ -114,12 +114,19 @@ We gratefully acknowledge:
 📍 STEM FELLOWSHIP
 
 📍 OverLeaf
+
 📍 RESEARCH CANADA
+
 📍 Canadian Science Publishing
+
 📍 ROCHE
+
 📍 Underline
+
 📍 Microsoft
+
 📍 Canadian Personalized Healthcare Innovation Network (CPHIN)
+
 👤 STEM Fellowship organizers and mentors.
 
 ## 📜 License
