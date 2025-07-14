@@ -46,7 +46,7 @@ This project investigates the complex interplay between social determinants of h
 ---
 ## 🔄 Workflow
 
-![Workflow Chart](path_to_your_flowchart_image.png)
+![Workflow Chart](./Flowchart/Flowchart.png)
 ---
 ## 🧰 Tools & Technologies
 
