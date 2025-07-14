@@ -112,6 +112,7 @@ This work will be published under the peer-reviewed STEM Fellowship Journal, pub
 We gratefully acknowledge:
 
 📍 STEM FELLOWSHIP
+
 📍 OverLeaf
 📍 RESEARCH CANADA
 📍 Canadian Science Publishing
