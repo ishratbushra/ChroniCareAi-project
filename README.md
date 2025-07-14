@@ -19,37 +19,95 @@ This project investigates the complex interplay between social determinants of h
 - Sazia Afreen  
 
 ---
+## 📊 Dataset Description
 
-## 📌 Challenge Overview
- This hands-on competition empowers undergraduate and graduate students to explore real-world migration issues using underutilized Statistics Canada datasets. Participants analyze disparities in access to essential services, like healthcare, education, and employment, across immigrants, temporary residents, and Canadian-born individuals. It is presented by **Toronto Metropolitan University** in collaboration with the **Innovation Zones**.
-## 📊 Dataset Background
- Curated datasets were prepared under the leadership of **Dr. Feng Hou**, Principal Researcher at **Statistics Canada**, provides a solid foundation for exploring spatial inequality and data-driven storytelling.
+1. **World Bank Open Data**  
+   - Indicators: Life expectancy, education, GDP, healthcare spending  
+   - Period: 2000–2021  
+   - [Link](https://data.worldbank.org/)
 
-## 🧠 Research Questions
-We focused on the following key questions:
+2. **WHO Global Health Estimates**  
+   - Leading causes of death: Cardiovascular, Alzheimer’s, Asthma, Kidney diseases, etc.  
+   - Years: 2000, 2010, 2015, 2019, 2020, 2021  
+   - [Link](https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death)
 
-- Which areas have a higher-than-average density of recent immigrants (2016–2021)?
-- How do different immigrant classes (economic, family, refugee, and other) vary in areas with high vs. low workplace accessibility?
-- How does generational composition differ in areas with high vs. low access to primary/secondary education?
-- In areas with high populations of women refugees, do they face greater barriers to workplace accessibility?
-## 📂 Given Dataset
-Provided by Statistics Canada:
-- **ADA_profile_simplified.xlsx:** 2021 Census Profile at the ADA level (immigration-related characteristics) *(*saved as csv for ease of use*)*
-- **ADA_acs_file.xlsx:** Spatial Access Measures (aggregated at ADA level from Dissemination Block level) *(*saved as csv for ease of use*)*
-## 📂 Additional Dataset & Resources
-- **Shapefiles:** Geographic boundary files in .shp format used for spatial visualizations.*https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21*
-- **National Cencus 2021:** *https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDList=2021A000011124&GENDERList=1,2,3&STATISTICList=1,4&HEADERList=0&SearchText=Canada*
-## 🔧 Tools & Technologies
-- **Language:** Python 3.11
-- **Platform:** Google Colab for coding
-- **Visualization & Analysis Tools:** Microsoft Excel for pivot tables, data exploration, intermediate calculation
-- **Libraries:** pandas, numpy, matplotlib,plotly, geopandas, folium, ticker, patches
-## ✅ Deliverables
-- **Colab Notebooks & py files:** Modular scripts for data processing and visualization.
-- **Charts & Tables:** Stacked bar charts, Group bar charts, Choropleth maps, Table.
-- **Report:** Final PDF with visual findings and analysis.
-- **Shapefiles:** For geographic analysis.
-- **Presentation Slides:** Summary of findings .
+3. **World Income Inequality Database**  
+   - Income shares (top 10%, bottom 40%) by country  
+   - Years: 1950–2022  
+   - [Link]([https://wid.world](https://www.wider.unu.edu/project/world-income-inequality-database))
+---
+
+## ❓ Research Questions
+
+1. Which SDoH most significantly influence chronic disease mortality in aging populations?
+2. How do these influences differ across income groups and geographic regions?
+3. Can deep learning models predict chronic disease outcomes from macroscale indicators, and how do SHAP explanations improve interpretability?
+
+---
+## 🔄 Workflow
+
+![Workflow Chart](path_to_your_flowchart_image.png)
+---
+## 🧰 Tools & Technologies
+
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Scikit-learn  
+- XGBoost  
+- TensorFlow / Keras (LSTM, GRU)  
+- SHAP (SHapley Additive Explanations)  
+- Jupyter Notebooks  
+- Git & GitHub  
+
+---
+
+## 📦 Deliverables
+
+- Cleaned and preprocessed dataset  
+- Exploratory Data Analysis (EDA) visualizations  
+- Trained models (XGBoost, LSTM, GRU, Linear Regression)  
+- SHAP-based interpretation plots  
+- Evaluation reports (R², MSE)  
+- Final Report and Poster Presentation  
+- GitHub Repository  
+
+---
+
+## 💡 Key Findings
+
+- **XGBoost** consistently achieved highest accuracy (e.g., R² > 0.91), outperforming deep learning models on tabular data.  
+- **Top Predictors:** Life expectancy, diabetes prevalence, underemployment, and income inequality.  
+- **Income-Based Insights:**  
+   - Low-income: Communicable disease burden, unemployment, undernourishment  
+   - Middle-income: Inequality, chronic disease transition  
+   - High-income: Metabolic risk factors, aging  
+- **Regional Patterns:**  
+   - South Asia: Undernutrition & diabetes  
+   - East Asia: Diabetes-driven mortality  
+   - Europe: Aging-linked cardiovascular mortality  
+   - Sub-Saharan Africa: Structural vulnerabilities
+---
+## ⚠️ Limitations
+
+- Sparse data for certain years/countries  
+- Lack of individual-level and longitudinal data  
+- Limited temporal granularity  
+- Potential unobserved confounders (e.g., healthcare quality, genetics)
+
+---
+## 🚀 Future Work
+
+- Incorporate **time-aware** models (e.g., temporal transformers)  
+- Integrate **individual-level and geospatial data**  
+- Apply **multi-step forecasting** with external features (e.g., weather, economic shifts)  
+- Enhance explainability with **attention-based neural networks**  
+
+---
+## 📚 Publication
+
+This work will be published under the peer-reviewed STEM Fellowship Journal, published by Canadian Science Publishing, with video and full manuscripts in Underline.
+
+👉 **[Link to publication (Coming Soon)](https:)** 
+---
 ## 📜 Acknowledgments
 We gratefully acknowledge:
 
