@@ -2,7 +2,7 @@
 # 🧠 Deep Learning Insights into Social Determinants of Chronic Disease and Longevity
 
 **STEM Fellowship 2025 – National Inter-University Health Data and AI Inquiry Program**
-
+---
 ## 📄 Description
 
 This project investigates the complex interplay between social determinants of health (SDoH) and chronic disease-related mortality using deep learning and interpretable AI. We utilized a globally representative dataset (2000–2021) combining World Bank indicators, WHO Global Health Estimates, and income inequality data. By applying models such as XGBoost, LSTM, GRU, and Linear Regression, alongside SHAP analysis, we provide both accurate predictions and explainable insights across diseases like diabetes, Alzheimer’s, cardiovascular disease, asthma, and kidney disorders. Our findings advocate for tailored health policy interventions based on income and regional contexts.
