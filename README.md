@@ -34,7 +34,7 @@ This project investigates the complex interplay between social determinants of h
 3. **World Income Inequality Database**  
    - Income shares (top 10%, bottom 40%) by country  
    - Years: 1950–2022  
-   - [Link]([https://wid.world](https://www.wider.unu.edu/project/world-income-inequality-database)
+   - [Link]([(https://www.wider.unu.edu/project/world-income-inequality-database])
 ---
 
 ## ❓ Research Questions
