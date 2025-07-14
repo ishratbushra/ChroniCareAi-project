@@ -7,12 +7,18 @@
 
 This project investigates the complex interplay between social determinants of health (SDoH) and chronic disease-related mortality using deep learning and interpretable AI. We utilized a globally representative dataset (2000–2021) combining World Bank indicators, WHO Global Health Estimates, and income inequality data. By applying models such as XGBoost, LSTM, GRU, and Linear Regression, alongside SHAP analysis, we provide both accurate predictions and explainable insights across diseases like diabetes, Alzheimer’s, cardiovascular disease, asthma, and kidney disorders. Our findings advocate for tailored health policy interventions based on income and regional contexts.
 
-## 🌐 Team Name 
- **Mosaic Migrants**
-## 👥 Team Members
--	Ishrat Jaben Bushra
--	Kin Kwan Liu(Derek)
--	Muhammad Zaka Shaheryar
+---
+
+## 👥 Team
+
+**Team Name:** Chronicare AI  
+**Team Members:**  
+- Ishrat Jaben Bushra  
+- Kin Kwan Liu  
+- Muhammad Zaka Shaheryar  
+- Sazia Afreen  
+
+---
 
 ## 📌 Challenge Overview
  This hands-on competition empowers undergraduate and graduate students to explore real-world migration issues using underutilized Statistics Canada datasets. Participants analyze disparities in access to essential services, like healthcare, education, and employment, across immigrants, temporary residents, and Canadian-born individuals. It is presented by **Toronto Metropolitan University** in collaboration with the **Innovation Zones**.
