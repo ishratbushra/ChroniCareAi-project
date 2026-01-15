@@ -24,11 +24,11 @@ This project follows an end-to-end **ETL (Extract–Transform–Load) pipeline**
 - Merged datasets at the **country–year level (2000–2021)**
 - Engineered SDoH features for modeling and interpretability
 - Performed aggregation and normalization for cross-country comparison
----
+- 
 **Load**
 - Loaded the integrated analytical dataset into machine learning and deep learning pipelines
 - Used the transformed data for EDA, predictive modeling, and SHAP-based explainability
-
+---
 ## 👥 Team
 
 **Team Name:** Chronicare AI  
