@@ -8,6 +8,26 @@
 This project investigates the complex interplay between social determinants of health (SDoH) and chronic disease-related mortality using deep learning and interpretable AI. We utilized a globally representative dataset (2000–2021) combining World Bank indicators, WHO Global Health Estimates, and income inequality data. By applying models such as XGBoost, LSTM, GRU, and Linear Regression, alongside SHAP analysis, we provide both accurate predictions and explainable insights across diseases like diabetes, Alzheimer’s, cardiovascular disease, asthma, and kidney disorders. Our findings advocate for tailored health policy interventions based on income and regional contexts.
 
 ---
+## 🔄 Data Pipeline (ETL Process)
+
+This project follows an end-to-end **ETL (Extract–Transform–Load) pipeline**:
+
+**Extract**
+- Retrieved macro-level health, socioeconomic, and inequality indicators from:
+  - World Bank Open Data
+  - WHO Global Health Estimates
+  - World Income Inequality Database
+
+**Transform**
+- Cleaned and standardized country and year identifiers
+- Handled missing values and temporal gaps
+- Merged datasets at the **country–year level (2000–2021)**
+- Engineered SDoH features for modeling and interpretability
+- Performed aggregation and normalization for cross-country comparison
+---
+**Load**
+- Loaded the integrated analytical dataset into machine learning and deep learning pipelines
+- Used the transformed data for EDA, predictive modeling, and SHAP-based explainability
 
 ## 👥 Team
 
