@@ -1,5 +1,7 @@
 
 # 🧠 Deep Learning Insights into Social Determinants of Chronic Disease and Longevity
+## Preview
+![Dashboard Preview](StaticSlide_3MT.png)
 
 **STEM Fellowship 2025 – National Inter-University Health Data and AI Inquiry Program**
 ---
